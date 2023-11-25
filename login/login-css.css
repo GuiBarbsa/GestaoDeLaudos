@@ -81,6 +81,8 @@ input {
 }
 
 button {
+  width: 100%;
+  font-weight: 600;
   height: 28px;
   margin-top: 10px;
   font-size: large;
@@ -91,11 +93,6 @@ button {
 button:hover {
   opacity: 70%;
   cursor: pointer;
-}
-
-button {
-  width: 100%;
-  font-weight: 600;
 }
 
 p {

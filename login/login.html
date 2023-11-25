@@ -25,15 +25,10 @@
       <form action="data-login.php" method="post">
         <h3>Login</h3>
         <div>
-          <input type="text" id="user" placeholder="Usuário..." />
+          <input type="text" name="user" id="user" onchange="validateUser()" placeholder="Usuário..." />
         </div>
         <div>
-          <input
-            type="password"
-            name=""
-            id="pass-login"
-            placeholder="Senha..."
-          />
+          <input type="password" name="" id="pass-login" placeholder="Senha..." />
         </div>
         <div>
           <button>Entrar</button>
