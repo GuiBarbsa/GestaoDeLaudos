@@ -8,6 +8,7 @@
   --border-default: 1px solid #acabab;
   --box-shadow-default: 2px 2px 4px #2e2c2c;
   --back-color: #3636f7;
+  --color-links: #3636f7;
   --bottom-color: #dcdfdf;
   --white-color: #ffffff;
 }
@@ -99,10 +100,11 @@ button {
 
 p {
   margin: 10px 0 20px 0;
+  color: var(--color-links);
 }
 
 a {
-  color: #3636f7;
+  color: var(--color-links);
   text-decoration: none;
 }
 

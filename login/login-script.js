@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', function(){
   var ionIcon = document.getElementById('icon')
 
   ionIcon.onclick = function () {
-    alert("Seja bem vindo(a)!")
+    alert("Se já possui um usuário acesse com suas credenciais. Mas se não tiver clique em 'Cadastre-se'!")
   }
 });
